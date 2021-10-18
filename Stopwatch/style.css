@@ -1,3 +1,55 @@
 
+body{
+    box-sizing: border-box;
+    background-color: rgb(39, 119, 139);
+    color: white;
+    padding-top: 50px;
+    font-family: 'Montserrat', sans-serif;}
 
+.frame{
+    border: white 2px solid;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px white;
+    padding: 20px;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+h3{
+    font-size: 60px;
+    font-weight: 100;
+    box-shadow: 0 0 5px 1px rgba(255, 255, 255, 0.5);
+    width: 80%;
+    margin: 30px auto;
+    padding: 10px 0;
+    border-radius: 3px;
+    font-family: 'Quantico', sans-serif;
+}
+#start,
+#stop,
+#reset{
+    width: 80px;
+    padding: 8px 3px;
+    font-size: 1.2rem;
+    background-color: white;
+    color: rgb(39, 119, 139);
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    margin: 10px;
+    box-shadow: 2px 8px 3px rgb(11, 69, 85);
+}
+#start:hover,
+#stop:hover,
+#reset:hover{
+    color: white;
+    background-image: radial-gradient(rgb(39, 119, 139), rgb(117, 166, 179));
+}
+#start:active,
+#stop:active,
+#reset:active{
+    background-color: rgb(30, 104, 122);
+    box-shadow: 2px 8px 3px rgb(1, 32, 41);
+    transform: translateY(3px);
+}
 
